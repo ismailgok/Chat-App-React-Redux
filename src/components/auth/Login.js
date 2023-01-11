@@ -21,7 +21,7 @@ const Login = () => {
         className={styles.container}
       >
         <Grid.Column width={4}>
-          <h1 className={styles.formHeader}>chat app</h1>
+          <h1 className={styles.formTitle}>chat app</h1>
           <Form size="large" className={styles.form} onSubmit={handleSubmit(onSubmit)}>
             <Segment>
               <Form.Input
